@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBF - 中日本学生放送連盟</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="SBF（中日本学生放送連盟）は、名古屋大学を拠点に活動する放送サークルです。">
+    <!-- Font Awesome (for icons, if needed, using CDN for now as placeholder or could use SVG) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo_toumei_white.svg" alt="SBF Logo" style="height: 50px; width: auto;">
+                <span class="logo-text-ja">中日本学生放送連盟</span>
+            </a>
+            <button class="hamburger-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li class="dropdown">
+                        <a href="activity/index.html">活動</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="circles/announce.html">アナウンス研究会</a></li>
+                            <li><a href="circles/produce.html">プロデュース研究会</a></li>
+                            <li><a href="circles/technical.html">技術研究会</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="memory/index.html">記録</a></li>
+                    <li><a href="guide/recruit.html">入盟案内</a></li>
+                    <li><a href="guide/request.html">ご依頼</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation (New Structure) -->
+    <nav id="mobile-nav">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="activity/index.html">活動</a></li>
+            <li><a href="circles/announce.html">アナウンス研究会</a></li>
+            <li><a href="circles/produce.html">プロデュース研究会</a></li>
+            <li><a href="circles/technical.html">技術研究会</a></li>
+            <li><a href="memory/index.html">記録</a></li>
+            <li><a href="guide/recruit.html">入盟案内</a></li>
+            <li><a href="guide/request.html">ご依頼</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero"
+        style="height: 100vh; display: flex; align-items: center; justify-content: center; background: url('images/top.jpg') no-repeat center center/cover; position: relative;">
+        <!-- Placeholder overlay for readibility if image is bright, but strict black background preferred if no image -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.3);">
+        </div>
+
+        <div class="container" style="position: relative; z-index: 1; text-align: center;">
+            <img src="images/logo_toumei_white.svg" alt="SBF" class="hero-logo">
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <div class="container">
+            <h2>概要</h2>
+            <div class="content">
+                <p style="margin-bottom: 20px;">
+                    SBF（中日本学生放送連盟）は、名古屋大学を拠点に活動している放送サークルです。
+                </p>
+                <p style="margin-bottom: 20px;">
+                    バラエティ番組・ドラマ・旅番組といった映像作品から、ラジオ番組、ミュージックビデオまで、ジャンルにとらわれず幅広い作品を制作しています。<br>
+                    アナウンス、カメラ、映像編集、音声編集、企画、脚本など、「<strong>やってみたい！</strong>」と思ったことには、<strong>なんでも挑戦できます!!</strong>
+                </p>
+                <p style="margin-bottom: 20px;">
+                    SBFはインカレサークルのため、名古屋大学だけでなく、名城大学、南山大学、岐阜大学、三重大学など、<strong>東海圏のさまざまな大学から</strong>、個性豊かなメンバーが集まり、楽しく和気あいあいと活動しています。
+                </p>
+                <p>
+                    また1953年に創立されたSBFは、<span id="current-year">2026</span>年で創立<span
+                        id="anniversary-year">73</span>年目を迎える、長い伝統を持つサークルです。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Circles / Activities Introduction -->
+    <section id="circles">
+        <div class="container">
+            <h2>各研究会紹介</h2>
+            <div class="circles-grid">
+
+                <!-- Announce -->
+                <div class="card" style="border: 1px solid #e0e0e0; padding: 30px; text-align: center;">
+                    <h3 style="margin-bottom: 15px;">アナウンス研究会</h3>
+                    <p style="margin-bottom: 20px;">声で伝える楽しさを。<br>ナレーション、フリートーク、朗読など。</p>
+                    <a href="circles/announce.html" class="btn">詳細を見る</a>
+                </div>
+
+                <!-- Produce -->
+                <div class="card" style="border: 1px solid #e0e0e0; padding: 30px; text-align: center;">
+                    <h3 style="margin-bottom: 15px;">プロデュース研究会</h3>
+                    <p style="margin-bottom: 20px;">企画を形にする。<br>番組制作の指揮、脚本、演出など。</p>
+                    <a href="circles/produce.html" class="btn">詳細を見る</a>
+                </div>
+
+                <!-- Technical -->
+                <div class="card" style="border: 1px solid #e0e0e0; padding: 30px; text-align: center;">
+                    <h3 style="margin-bottom: 15px;">技術研究会</h3>
+                    <p style="margin-bottom: 20px;">映像と音の職人。<br>撮影、編集、ミキシング、機材操作。</p>
+                    <a href="circles/technical.html" class="btn">詳細を見る</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Access -->
+    <section id="access">
+        <div class="container">
+            <h2>アクセス</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="font-weight: bold; margin-bottom: 10px;">〒464-0814<br>名古屋市千種区不老町
+                        名古屋大学学生会館内</p>
+                    <p style="margin-bottom: 20px;">普段の活動は、学生会館の集会室やサークル棟にある部室で行っています。</p>
+                    <p><strong>最寄り駅:</strong><br>地下鉄名城線 名古屋大学駅 下車<br>3番出口から北へ徒歩3分</p>
+                </div>
+                <!-- Google Maps Embed Placeholder -->
+                <div
+                    style="flex: 1; min-width: 300px; height: 300px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #666;">
+                    MAP PLACEHOLDER (Embed Google Maps Here)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNS Links -->
+    <section id="sns">
+        <div class="container">
+            <h2>SNS</h2>
+            <p style="margin-bottom: 30px;">最新情報や活動の様子はこちらから</p>
+            <div class="sns-links">
+                <a href="https://x.com/sbf_renmei?s=20" target="_blank" title="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCye3iDlnDlnpYUYk98AFmNw" target="_blank" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/sbf_renmei?igsh=MW82azhxNjhtOTZ4" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://lin.ee/fXKciTn" target="_blank" title="LINE">
+                    <i class="fa-brands fa-line"></i>
+                </a>
+                <a href="https://open.spotify.com/show/298nSHt1an4wHGTyWjASQu?si=21dbe95e8b3d4a3a" target="_blank"
+                    title="Spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <img src="images/logo.svg" alt="SBF" style="height: 40px; margin: 0 auto 20px; display: block;">
+            <p>&copy; 2026 SBF 中日本学生放送連盟. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
